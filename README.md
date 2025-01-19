@@ -1,13 +1,10 @@
-# DevOpsKickstart
+# JenkinsStarterProject
 The repository contains a project carried out as part of learning DevOps technologies.
 
 ## Used Technologies:
 
 - GitHub 🐙
 - Jenkins 🤖
-- Docker 🐳
-- Amazon EC2 ☁️
-- Maven 🔧
 
 ## Jenkins installation
 
@@ -40,3 +37,6 @@ In my Jenkins configuration, I use the Public Over SSH plugin to automate remote
 6. Click `Apply`, then `Save`.
 7. On the project page, click `Build Now`.
 8. If you encounter any issues, check the `Console Logs` in the project directory on Jenkins for more information.
+
+**Configure Jenkins for CI/CD**
+
