@@ -5,6 +5,8 @@ The repository contains a project carried out as part of learning DevOps technol
 
 - GitHub 🐙
 - Jenkins 🤖
+- Maven 📦
+- Java ☕
 
 ## Jenkins installation
 
@@ -166,3 +168,16 @@ After properly setting up Jenkins and connecting it to GitHub, you can use this 
    - In the **Post-build Actions** section, add a step to configure, for example, an email with the build results.
 
 ---
+# Build and Test Automation with Maven and Jenkins
+
+Maven support has been added to the project, which enables easy dependency management and automation of the build process. With the integration with Jenkins, the configuration of pom.xml allows for:
+
+Automatic installation of dependencies – e.g., JUnit libraries for unit tests.
+Build process – Jenkins runs mvn clean install, which compiles the application and generates output files.
+Automatic test execution – tests defined in the AppTest.java file are run during every build. Test results are reported in the Jenkins interface.
+With these functionalities, the project demonstrates a basic CI/CD cycle:
+
+Building the application.
+Testing the code.
+Reporting results.
+The Maven configuration is a key element of this process and highlights its practical application in real-world DevOps environments.
