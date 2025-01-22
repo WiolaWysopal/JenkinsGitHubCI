@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.042" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="D:\GitHub Profile\DevOpsKickstart\target\test-classes;D:\GitHub Profile\DevOpsKickstart\target\classes;C:\Users\wiole\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\wiole\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\wiole\AppData\Local\Temp\surefire16184123838697292933\surefirebooter-20250122213232163_3.jar C:\Users\wiole\AppData\Local\Temp\surefire16184123838697292933 2025-01-22T21-32-31_856-jvmRun1 surefire-20250122213232163_1tmp surefire_0-20250122213232163_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\GitHub Profile\DevOpsKickstart\target\test-classes;D:\GitHub Profile\DevOpsKickstart\target\classes;C:\Users\wiole\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\wiole\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\wiole"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\GitHub Profile\DevOpsKickstart"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\wiole\AppData\Local\Temp\surefire16184123838697292933\surefirebooter-20250122213232163_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS"/>
+    <property name="user.name" value="wiole"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-40648"/>
+    <property name="localRepository" value="C:\Users\wiole\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\wiole\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="D:\GitHub Profile\DevOpsKickstart"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\HashiCorp\Vagrant\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.4\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\wiole\AppData\Roaming\Python\Python311\Scripts\;C:\Program Files\Graphviz\bin;C:\Users\wiole\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\wiole\AppData\Local\Programs\Python\Python311\;C:\Users\wiole\AppData\Local\Microsoft\WindowsApps;C:\Users\wiole\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Program Files\JetBrains\PhpStorm 2023.1.1\bin;;C:\Program Files\Oracle\VirtualBox;C:\Users\wiole\AppData\Roaming\npm;C:\Users\wiole\AppData\Local\Android\Sdk\emulator;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testGreet" classname="com.example.AppTest" time="0.016"/>
+</testsuite>
